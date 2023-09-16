@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url("../IMAGE/book4.jpg");
+    background-size: cover;
+}
+header{
+    background-color: black;
+    background-size: 300px;
+}
+
+/* navigation styling start */
+.navigation{
+    float: right;
+    margin-top: 30px;
+    margin-right: 50px;
+}
+.navigation a{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    color: white;
+    border: 1px solid white;
+    margin: 5px;
+    padding: 10px;
+
+}
+.navigation a:hover{
+    background-color: teal;
+    color: black;
+}
+#logo{
+    margin-left: 10%;
+    margin-top:0.5%;
+}
+/* navigation styling end */
+
+
+
+/*aside styling start*/
+.side{
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 100px;
+ /* border: 2px solid red ; */
+    float: left;
+}
+
+.side li {
+    padding: 2px;
+    list-style-type: square;
+}
+/*aside styling end*/
+
+
+/* login styling start */
+.my_login{
+    border: 2px solid red;
+    float: right;
+    margin-top:60px ;
+    background-color: beige;
+    height: 15em;
+    margin-right:30px;
+    padding: 30px;
+    margin-right: 20px;
+}
+
+.my_login h2{
+    text-align: center;
+}
+
+#logg {
+    background-color: dodgerblue;
+    width: 100%;
+    border: none;
+    color: white;
+    height: 1.5em;
+}
+
+/* login styling end */
+
+
+/* courses styling stat */
+.continer {
+    
+    margin-top: 450px;
+    margin-left: 60px;
+   
+ }
+ .p-box {
+    border:3px solid white;
+    float: left;
+    width: 22%;
+    margin-left: 5px;
+    padding: 5px;
+    background-color: gainsboro;
+    height: 13em;
+ }
+
+
+/* courses styling end */
